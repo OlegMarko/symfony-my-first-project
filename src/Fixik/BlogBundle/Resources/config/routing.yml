@@ -1,0 +1,7 @@
+fixik_blog_post:
+    resource: "@FixikBlogBundle/Resources/config/routing/post.yml"
+    prefix:   /post
+
+fixik_blog_homepage:
+    path:     /
+    defaults: { _controller: FixikBlogBundle:Default:index }
